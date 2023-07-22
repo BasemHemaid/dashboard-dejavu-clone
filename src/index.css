@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+@media only screen and (max-width: 768px){
+
+  .tableContainer{
+    width: 59vw;
+    margin:2% auto;
+    white-space: nowrap; 
+     overflow-x: auto;  
+  }
+  .textSmall{
+    font-size: 100%;
+    padding:revert!important; 
+  }
+
+}
